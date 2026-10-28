@@ -1,0 +1,1 @@
+Bỏ ảnh/video vào thư mục này rồi ghi tên file vào img/anh-co-san.js (xem img/HUONG-DAN-ANH.txt).

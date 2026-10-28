@@ -1,0 +1,9 @@
+ẢNH THẺ SÂN (DẠNG LƯỚI) - 6 ẢNH KHÁC NHAU
+==========================================
+Bỏ vào thư mục này đúng 6 file, đặt tên:
+   luoi-1.jpg  luoi-2.jpg  luoi-3.jpg  luoi-4.jpg  luoi-5.jpg  luoi-6.jpg
+
+Website tự chia vòng tròn cho cả 23 sân (A1..A20, V1..V3):
+   A1->luoi-1, A2->luoi-2, ... A6->luoi-6, A7->luoi-1, A8->luoi-2, ... (trùng lặp là bình thường)
+KHÔNG cần ghi tên file vào anh-co-san.js. File nào chưa có thì tự dùng ảnh minh họa.
+Khuyên dùng: .jpg ngang, tỉ lệ 16:10, rộng ~1200px, dưới 500KB (nhận cả .jpeg .png .webp).

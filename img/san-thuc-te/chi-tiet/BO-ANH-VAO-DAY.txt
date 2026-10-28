@@ -1,0 +1,9 @@
+ẢNH CHI TIẾT SÂN (TRANG "XEM CHI TIẾT") - DÙNG CHUNG CHO MỌI SÂN
+=================================================================
+Bỏ vào thư mục này 4 file, đặt tên:
+   chi-tiet-1.jpg  chi-tiet-2.jpg  chi-tiet-3.jpg  chi-tiet-4.jpg
+
+- chi-tiet-1.jpg là ảnh lớn đầu tiên, 4 ảnh còn lại là ảnh nhỏ bên dưới.
+- Tất cả các sân đều dùng chung 4 ảnh này (lặp lại giữa các sân là được).
+- KHÔNG cần ghi tên file vào anh-co-san.js. File nào chưa có thì tự dùng ảnh minh họa.
+- Muốn một sân có ảnh riêng: bỏ vào img/san/ (A1.jpg ...) và ghi tên vào anh-co-san.js, ảnh riêng được ưu tiên.

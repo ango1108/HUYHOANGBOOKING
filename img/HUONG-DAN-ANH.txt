@@ -1,0 +1,40 @@
+THƯ MỤC ẢNH THẬT CỦA BẠN
+========================
+Bước 1: bỏ ảnh thật vào đúng thư mục con, ĐẶT TÊN ĐÚNG như bảng dưới.
+Bước 2: mở file img/anh-co-san.js, ghi tên file vừa thêm vào danh sách (có ví dụ ngay trong file).
+Bước 3: lưu và tải lại trang (Ctrl + F5). Không cần sửa code khác.
+Ảnh nào chưa có trong danh sách thì website vẫn dùng ảnh minh họa (thư mục assets/images).
+(Bạn cũng có thể gửi lại thư mục img cho mình, mình sẽ điền danh sách giúp.)
+Định dạng nhận: .jpg  .jpeg  .png  .webp   (khuyên dùng .jpg, ngang, tỉ lệ 16:10, rộng 1200px, dưới 500KB)
+
+1) SÂN  → thư mục img/san/
+   A1.jpg … A20.jpg        ảnh chính của từng sân 5 người (hiện ở thẻ sân + ảnh lớn trang chi tiết)
+   V1.jpg, V2.jpg, V3.jpg  ảnh chính của 3 sân 7 người
+   A1-2.jpg, A1-3.jpg, A1-4.jpg   (tùy chọn) ảnh phụ thứ 2,3,4 của sân A1 — tương tự cho sân khác (V1-2.jpg …)
+
+2) GIẢI ĐẤU → thư mục img/giai-dau/
+   T1.jpg  Huy Hoàng Cup – Mùa Thu 2026 (nên là ảnh cúp / đội nâng cúp)
+   T2.jpg  Giải Sinh viên Bình Thạnh 5 người
+   T3.jpg  Office League – Giải Doanh nghiệp
+   T4.jpg  Giao hữu Night League
+   live.jpg  (tùy chọn) ảnh nền khung "Xem trực tiếp" ở đầu trang Giải đấu
+
+3) TRANG CHỦ → thư mục img/trang-chu/
+   hero.jpg  ảnh bìa lớn đầu trang chủ (ngang, rộng ≥ 1600px). Khi có video, ảnh này làm ảnh chờ (poster).
+
+4) VIDEO NỀN TRANG CHỦ → thư mục img/video/
+   hero.mp4   (H.264, KHÔNG cần tiếng, 8–15 giây, 1280×720 hoặc 1920×1080, dưới ~5MB) — chạy ngầm, lặp vô hạn, nằm dưới chữ
+   hero.webm  (tùy chọn, dự phòng cho trình duyệt không đọc được mp4)
+   Ghi 'video/hero.mp4' (và/hoặc 'video/hero.webm') vào img/anh-co-san.js. Người bật "giảm chuyển động" hoặc tiết kiệm dữ liệu sẽ chỉ thấy ảnh bìa.
+
+5) TÌM ĐỐI → thư mục img/tim-doi/
+   bia.jpg   ảnh nền khung "CÙNG NHAU RA SÂN" ở trang Tìm đối (ngang, ≥ 1000px)
+
+6) THÀNH VIÊN → thư mục img/thanh-vien/
+   bia.jpg     ảnh bìa nền khung chào thành viên
+   avatar.jpg  ảnh đại diện (vuông, ≥ 256px) hiện ở khung chào thành viên
+
+7) KHÁC → thư mục img/khac/  (để dành cho ảnh bạn dùng thêm trong báo cáo)
+
+Lưu ý bản quyền: chỉ dùng ảnh do nhóm tự chụp hoặc ảnh được phép dùng (ghi nguồn trong báo cáo).
+Tên file phân biệt chữ hoa/thường khi chạy trên một số máy: hãy viết đúng như trên (A1.jpg, T1.jpg…).

@@ -1,0 +1,21 @@
+ẢNH / LOGO CÁC ĐỘI TÌM ĐỐI
+===========================
+Bỏ ảnh (logo đội hoặc ảnh cả đội) vào thư mục này, ĐẶT TÊN THEO TÊN ĐỘI viết thường, không dấu, nối bằng dấu gạch ngang:
+
+   FC Đoàn Kết              -> fc-doan-ket.jpg
+   FC Thủ Đức Xanh          -> fc-thu-duc-xanh.jpg
+   Team Văn Phòng Số 9      -> team-van-phong-so-9.jpg
+   FC Sinh Viên Tự Do       -> fc-sinh-vien-tu-do.jpg
+   Phố Núi FC               -> pho-nui-fc.jpg
+   Bình Thạnh Stars         -> binh-thanh-stars.jpg
+   Đêm Sài Gòn FC           -> dem-sai-gon-fc.jpg
+   FC Cuối Tuần             -> fc-cuoi-tuan.jpg
+   Gà Rán FC                -> ga-ran-fc.jpg
+   Mãnh Hổ FC               -> manh-ho-fc.jpg
+   FC Cầu Giấy Xanh         -> fc-cau-giay-xanh.jpg
+
+- Hiển thị ở: trang Tìm đối -> thẻ "đang tìm đối" (ảnh chữ nhật), và bài đăng "Đội cần thêm người" (logo tròn).
+- Đội nào chưa có ảnh: thẻ kèo dùng ảnh sân, bài đăng dùng chữ viết tắt. Không cần ghi tên vào anh-co-san.js.
+- Đội mới do người dùng tự đăng: cứ đặt ảnh theo cùng quy tắc tên (vd. đội "Sao Đỏ FC" -> sao-do-fc.jpg).
+- Nên dùng ảnh vuông hoặc ngang, rộng >= 400px, .jpg (nhận cả .jpeg .png .webp), dưới 300KB.
+- Ảnh nền khung "CÙNG NHAU RA SÂN" vẫn là img/tim-doi/bia.jpg (khai báo trong anh-co-san.js).

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quản trị – HUY HOÀNG Football Booking</title>
+  <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin">
+  <div class="admin-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="admin.html#/tong-quan">
+        <img src="assets/images/logo.svg" alt="">
+        <span class="brand-name">HUY HOÀNG<small>QUẢN TRỊ</small></span>
+      </a>
+      <nav id="side-nav" aria-label="Menu quản trị"></nav>
+      <div class="side-foot">
+        <a class="btn btn-ghost btn-sm btn-block" href="index.html" target="_blank" rel="noopener">Mở trang khách hàng</a>
+        <button class="btn btn-ghost btn-sm btn-block" id="admin-logout" type="button" style="margin-top:6px">Đăng xuất quản trị</button>
+        <p>Bản mô phỏng · dữ liệu lưu trên trình duyệt này</p>
+      </div>
+    </aside>
+    <div class="admin-main">
+      <header class="topbar">
+        <button class="icon-btn menu-toggle" id="side-toggle" aria-label="Mở menu"></button>
+        <h1 id="top-title">Tổng quan</h1>
+        <span class="grow"></span>
+        <span class="muted hide-sm" id="top-date"></span>
+        <button class="icon-btn dark" id="bell" title="Đơn chờ xác nhận"></button>
+        <span class="user-chip"><span class="avatar">QT</span><span class="hide-sm">Quản trị viên</span></span>
+      </header>
+      <main id="view" class="view"></main>
+    </div>
+  </div>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <div id="modal-root"></div>
+
+  <script src="assets/icons.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+  <script src="admin.js"></script>
+<script>document.addEventListener("click",function(e){if(e.target.closest("#admin-logout")){HH.adminLogout();location.reload();}});</script>
+</body>
+</html>
